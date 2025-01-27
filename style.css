@@ -1,0 +1,47 @@
+body {
+  background-color: gold
+}
+p {
+  color: brown
+}
+h2 {
+  text-align: center;
+  border-style: solid;
+  border-color:saddlebrown; 
+  background-color:goldenrod
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  border-color: lightgoldenrodyellow;
+  border-width: 5px;
+  border-style:groove;
+  border-radius: 600px;
+  float:right;
+}
+/* Link styles */
+a:link{
+  color: #710909;
+}
+a:visited{
+  color: brown;
+}
+a:hover{
+  color: lightyellow;
+  border-style: dotted;
+}
+a:active{
+  color: sandybrown;
+  border-style: groove;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.link-card{
+  display: flex;
+  align-items: flex-start;
+}
